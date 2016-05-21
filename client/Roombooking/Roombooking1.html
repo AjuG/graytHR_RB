@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Your Conference</title>
+</head>
+<body>
+<script type="text/javascript">
+function hello()
+{
+
+alert("your request under consideration , will send you Confirmation code to your mail");
+
+}
+
+</script>
+
+
+<form >
+Emp_ID  <input type="number" name="Emp_ID" />
+<br>
+<br>
+Oraganizer Name:  <input type="text" name="Organizer_name" placeholder="Only Organizer Name " />
+<br>
+<br>
+email :<input type="email" name="email" placeholder="email@domainname.com"/>
+
+<br>
+<br>
+No Of Participant: <input type="number" name="participants" placeholder="1-100" />
+<br>
+<br>
+Type od Meeting:<select name="type of discussion">
+<option value="Decision Making">Decision Making</option>
+<option value="Client">Client Meeting</option>
+<option value="Emergency">Emergency Meeting</option>
+<option value="Scrum">Scrum Meeting</option>
+<option value="Status_Call">Status Call Meeting</option>
+<option value="Event Meeting">Event Meeting</option>
+</select>
+<br>
+<br>
+
+resources required:<br>
+
+<input type="checkbox" name="requirements" value="projector">Projector<br>
+<input type="checkbox" name="requiremnts" value="white-board">white board<br>
+<input type="checkbox" name="requiremnts" value="wi-fi faciltiy">Wi fi faciltiy<br>
+<input type="checkbox" name="requiremnts" value="intercom">intercom<br>
+
+<br>
+<br>
+Description <input type="text" name="Description" placeholder="purpose of the meeting" size="50" style="height:50px;font-size:14pt;"/>
+
+<input type="button" value="Submit" onClick="hello()"/>
+</form>
+
+
+</body>
+</html>
